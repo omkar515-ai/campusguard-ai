@@ -1,0 +1,31 @@
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f1f5f9;
+  background: #000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  max-width: none;
+  padding: 0;
+  text-align: left;
+}
