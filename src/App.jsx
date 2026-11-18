@@ -168,7 +168,7 @@ function LoginPage({ onLogin }) {
               )}
 
               <button className="sign-in-button" type="submit">
-                <span>{loginMethod === "email" ? "Sign in to CampusGuard" : "Verify & Sign in"}</span>
+                <span>{loginMethod === "email" ? "Sign in to Campus" : "Verify & Sign in"}</span>
                 <span className="button-arrow">→</span>
               </button>
             </form>
@@ -192,11 +192,11 @@ const sampleCameras = [
   { name: "Main Entrance", location: "North Gate", status: "Online", code: "CAM-01" },
   { name: "Library Block", location: "Academic Zone", status: "Online", code: "CAM-02" },
   { name: "Parking Area", location: "East Campus", status: "Offline", code: "CAM-03" },
-  { name: "CSE Building", location: "Restricted Zone", status: "Online", code: "CAM-04" },
+  { name: "Science Building", location: "Restricted Zone", status: "Online", code: "CAM-04" },
 ];
 
 const sampleAlerts = [
-  { title: "Restricted-zone entry detected", place: "CSE Building", time: "10:42 AM", severity: "High" },
+  { title: "Restricted-zone entry detected", place: "Science Building", time: "10:42 AM", severity: "High" },
   { title: "Motion detected near boundary", place: "North Gate", time: "10:18 AM", severity: "Medium" },
   { title: "Camera connection interrupted", place: "Parking Area", time: "09:56 AM", severity: "Low" },
 ];
